@@ -1,0 +1,92 @@
+ body{
+    background-image: url(img/fondo.jpg);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+ }
+ 
+ header{
+    height: 70vh;
+ }
+
+.navbar {
+    background-color: transparent !important;
+}
+
+.titulo{
+    text-align: center;
+    color: rgb(24, 23, 23);
+    font-size: 80px;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.363);
+    margin-top: 2%;
+}
+
+#menu{
+    background-color: rgba(0, 0, 0, 0.808);
+    font-weight: bold;
+}
+
+.pagina{
+    width: 75rem;
+    margin: 0 auto;
+    padding-bottom: 5rem;
+    border-bottom: solid 1px grey;
+    padding-top: 2rem;
+}
+
+#carruselPlantel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-caption{
+    background-color:#33313149;
+    border-radius: 20px 20px 20px 20px;
+    padding-bottom: 0rem !important;
+    right: 25% !important;
+    left: 25% !important;
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    gap: 3rem;
+    padding: 0;
+    list-style: none;
+    margin-top: 5%;
+}
+
+.imgGaleria{
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    max-width: 100%;
+    border-style: none;
+}
+
+.form{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: rgba(255, 0, 0, 0.753);
+    padding: 2%;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.comentarios li{
+    list-style:none;
+    border: 1px black solid;
+    border-radius: 20px 20px 20px 20px;
+    padding: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.autor{
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
